@@ -1,0 +1,69 @@
+:root {
+  --title-text-color: rgba(33, 33, 33, 1);
+  --lead-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --background-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo-primary {
+  color: var(--accent-color);
+}
+
+.logo-secondary {
+  color: var(--title-text-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav .list {
+  color: var(--lead-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+}
+
+/* Team section */
+
+.section-team {
+  background-color: var(--secondary-background-color);
+}
