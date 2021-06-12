@@ -55,11 +55,19 @@ body {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.button-nav .link:hover,
+.button-nav .link:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+  cursor: pointer;
 }
 
 /* Team section */
