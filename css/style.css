@@ -18,11 +18,11 @@ body {
 
 /* Logo */
 
-.logo-primary {
+.accent {
   color: var(--accent-color);
 }
 
-.logo-secondary {
+.logo {
   color: var(--title-text-color);
 }
 
