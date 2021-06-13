@@ -89,6 +89,7 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
 
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -104,6 +105,7 @@ body {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
   cursor: pointer;
+  font-family: inherit;
 }
 
 /* Features */
@@ -174,5 +176,6 @@ body {
 
 /* Projects */
 
-.projects-description {
+.projects-title {
+  text-decoration: none;
 }
