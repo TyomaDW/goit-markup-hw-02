@@ -95,6 +95,11 @@ body {
   letter-spacing: 0.06em;
 }
 
+.button-hero .link:hover,
+.button-hero .link:focus {
+  background-color: #188ce8;
+}
+
 .button-nav .link:hover,
 .button-nav .link:focus {
   color: var(--primary-white-color);
