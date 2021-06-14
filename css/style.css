@@ -76,6 +76,7 @@ body {
   color: var(--primary-white-color);
   background-color: var(--background-color);
 
+  font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
   text-align: center;
@@ -90,6 +91,7 @@ body {
   cursor: pointer;
 
   font-family: inherit;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -111,6 +113,7 @@ body {
   background-color: var(--secondary-background-color);
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
 }
 
 /* Features */
@@ -146,6 +149,7 @@ body {
 }
 
 .team-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1, 18;
   letter-spacing: 0.03em;
