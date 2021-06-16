@@ -180,7 +180,7 @@ body {
   text-decoration: none;
 }
 
-.contacts {
+.contacts .list {
   color: var(--lead-text-color);
 
   font-size: 14px;
