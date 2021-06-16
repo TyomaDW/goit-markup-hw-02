@@ -187,4 +187,5 @@ body {
 
 .projects-title {
   text-decoration: none;
+  color: inherit;
 }
