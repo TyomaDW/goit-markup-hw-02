@@ -177,12 +177,15 @@ body {
 
 .adress-info {
   color: var(--primary-white-color);
+
+  font-style: normal;
   text-decoration: none;
 }
 
 .contacts .list {
   color: var(--lead-text-color);
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
