@@ -116,6 +116,12 @@ body {
   font-weight: 500;
 }
 
+.portfolio-button-first {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
 /* Features */
 
 .features-title {
@@ -181,6 +187,11 @@ body {
   line-height: 1, 71;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--primary-white-color);
 }
 
 /* Projects */
