@@ -140,6 +140,7 @@ body {
 .features-description {
   color: var(--lead-text-color);
 
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -159,12 +160,16 @@ body {
 }
 
 .team-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 
 .team-description {
   color: var(--lead-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 /* Footer */
@@ -177,25 +182,19 @@ body {
   color: var(--primary-white-color);
 }
 
-.adress-info {
+.adress-info,
+.contacts {
   color: var(--primary-white-color);
 
-  font-style: normal;
-  text-decoration: none;
-}
-
-.contacts .list {
-  color: var(--lead-text-color);
-
-  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
   text-decoration: none;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
-  color: var(--primary-white-color);
+.contacts {
+  color: var(--lead-text-color);
 }
 
 /* Projects */
