@@ -5,6 +5,7 @@
   --primary-white-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --background-color: #2f303a;
+  --background-button: #188ce8;
 }
 
 body {
@@ -12,6 +13,9 @@ body {
   color: var(--title-text-color);
 
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -33,8 +37,7 @@ body {
   font-family: Raleway;
 
   font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   text-decoration: none;
 }
 
@@ -44,8 +47,6 @@ body {
   color: var(--title-text-color);
 
   font-weight: 500;
-  font-size: 14px;
-  line-height: 0, 14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -64,7 +65,7 @@ body {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 0, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -76,14 +77,17 @@ body {
 
 /* Hero */
 
+.hero-section {
+  background-color: var(--background-color);
+  text-align: center;
+}
+
 .hero-title {
   color: var(--primary-white-color);
-  background-color: var(--background-color);
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
-  text-align: center;
+  line-height: 1.36;
   text-transform: uppercase;
 }
 
@@ -92,8 +96,8 @@ body {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  cursor: pointer;
 
+  cursor: pointer;
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
@@ -103,7 +107,7 @@ body {
 
 .button-hero .link:hover,
 .button-hero .link:focus {
-  background-color: #188ce8;
+  background-color: var(--background-button);
 }
 
 .button-nav .link:hover,
@@ -115,23 +119,22 @@ body {
 .portfolio-button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   cursor: pointer;
   font-family: inherit;
-  font-weight: 500;
 }
 
-.portfolio-button-first {
+.button-first {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 
 /* Features */
 
 .features-title {
-  font-size: 14px;
-  line-height: 0, 14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -139,8 +142,7 @@ body {
   color: var(--lead-text-color);
 
   font-size: 14px;
-  line-height: 1, 71;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 /* Work */
@@ -149,7 +151,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Team section */
@@ -161,8 +162,7 @@ body {
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 18;
-  letter-spacing: 0.03em;
+  line-height: 1.18;
 }
 
 .team-description {
@@ -191,8 +191,7 @@ body {
 
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
   text-decoration: none;
 }
 
