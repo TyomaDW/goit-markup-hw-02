@@ -13,6 +13,7 @@ body {
   color: var(--title-text-color);
 
   font-family: Roboto, sans-serif;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -46,7 +47,6 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
 
-  font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -63,7 +63,6 @@ body {
 .auth-nav .list {
   color: var(--lead-text-color);
 
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -99,7 +98,7 @@ body {
 
   cursor: pointer;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -160,7 +159,6 @@ body {
 }
 
 .team-title {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
